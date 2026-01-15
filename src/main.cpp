@@ -28,9 +28,9 @@
 #define CHARACTERISTIC_UUID "beb5483e-36e1-4688-b7f5-ea07361b26a8"
 
 // ================= 全局变量 =================
-// 默认坐标：北京天安门 (防止上电无数据)
-double currentLat = 39.9088;
-double currentLon = 116.3975;
+// 📍 修改默认坐标：北京朝阳区望京 SOHO
+double currentLat = 40.0003;
+double currentLon = 116.4814;
 
 // 定义第二个硬件串口，用于和 3998K 通信
 HardwareSerial MfiSerial(1);
