@@ -1,0 +1,8 @@
+# Name,   Type, SubType, Offset,  Size, Flags
+nvs,      data, nvs,     ,        0x4000,
+otadata,  data, ota,     ,        0x2000,
+phy_init, data, phy,     ,        0x1000,
+# Factory App 分配 2.5MB (足够你用了)
+factory,  app,  factory, ,        0x280000,
+# 剩下的留给文件系统 (如果以后要存日志)
+spiffs,   data, spiffs,  ,        0x170000,
